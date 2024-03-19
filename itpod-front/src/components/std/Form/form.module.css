@@ -1,0 +1,152 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: auto;
+  position: relative;
+  overflow-y: auto;
+}
+
+.footer_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_btn {
+  width: 100%;
+  margin-left: 3px;
+  margin-bottom: 3px;
+}
+
+.privacy_policy {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+.privacy_policy-light {
+  color: var(--t-dark60);
+}
+
+.privacy_policy-gray {
+  color: var(--t-dark60);
+}
+
+.privacy_policy-blue,
+.privacy_policy-dark {
+  color: var(--t-white80);
+}
+
+.privacy_policy > a {
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+
+.privacy_policy-light > a,
+.privacy_policy-gray > a {
+  color: var(--t-dark60);
+}
+
+.privacy_policy-blue > a,
+.privacy_policy-dark > a {
+  color: var(--t-white70);
+}
+
+.privacy_policy-light > a:hover,
+.privacy_policy-gray > a:hover {
+  color: var(--t-dark80);
+}
+
+.privacy_policy-blue > a:hover,
+.privacy_policy-dark > a:hover {
+  color: var(--t-white80);
+}
+
+.privacy_policy-light > a:focus,
+.privacy_policy-gray > a:focus {
+  color: var(--t-dark);
+}
+
+.privacy_policy-blue > a:focus,
+.privacy_policy-dark > a:focus {
+  color: var(--t-white);
+}
+
+@media (min-width: 992px) {
+  .form_btn {
+    width: fit-content;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer_wrapper {
+    text-align: right;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .privacy_policy {
+    margin-top: 0;
+    max-width: 266px;
+  }
+}
+
+.answer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--t-white);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+}
+
+.close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.message_block {
+  color: var(--c-black);
+  text-align: center;
+}
+
+.message_desc {
+  color: var(--c-black) !important;
+  margin-top: 16px;
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close:hover path {
+  fill: var(--c-accent-orange);
+}
+
+.close:focus {
+  border: 1px solid var(--c-accent-orange);
+}
+
+.close:active path {
+  fill: #FCC521;
+}
+
+.sended input:invalid, .sended textarea:invalid {
+  border-color: var(--t-error);
+}
+
+.sended input:invalid ~ label,
+.sended textarea:invalid ~ label {
+  color: var(--t-error);
+  display: block;
+}

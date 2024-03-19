@@ -1,0 +1,7 @@
+/**
+ * server-serieses router
+ */
+
+import { factories } from '@strapi/strapi';
+
+export default factories.createCoreRouter('api::server-serieses.server-serieses');

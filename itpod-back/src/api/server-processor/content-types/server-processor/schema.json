@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "server_processors",
+  "info": {
+    "singularName": "server-processor",
+    "pluralName": "server-processors",
+    "displayName": "server_processor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "servers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::server.server",
+      "mappedBy": "server_processor"
+    }
+  }
+}

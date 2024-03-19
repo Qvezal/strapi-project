@@ -1,0 +1,48 @@
+.head {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.tab {
+  width: 100%;
+  min-width: max-content;
+  padding-bottom: 12px;
+
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: var(--t-white40);
+  cursor: pointer;
+}
+
+.tab_gray {
+  color: var(--t-dark60)!important;
+}
+
+.active {
+  color: var(--t-white);
+  border-bottom: 1px solid var(--t-white);
+}
+
+.active_gray {
+  color: var(--t-dark)!important;
+  border-bottom: 1px solid var(--bg-blue)!important;
+}
+
+.underline {
+  content: "";
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 1px;
+  background-color: var(--t-white40);
+}
+
+.underline_gray {
+  background-color: var(--t-dark15)!important;
+}
+

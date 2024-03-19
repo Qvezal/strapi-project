@@ -1,0 +1,25 @@
+.privacy {
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+@media (min-width: 992px) {
+  .privacy {
+    max-width: 60%;
+    margin-bottom: 72px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .privacy {
+    margin-top: 56px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .privacy {
+    margin-bottom: 128px;
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "form_leads",
+  "info": {
+    "singularName": "form-lead",
+    "pluralName": "form-leads",
+    "displayName": "form_lead",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page": {
+      "type": "string"
+    },
+    "lang": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "collectionName": "components_utils_components_block_settings",
+  "info": {
+    "displayName": "block",
+    "icon": "stack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark",
+        "gray",
+        "custom-light",
+        "custom-dark"
+      ],
+      "default": "light",
+      "required": true
+    },
+    "custom_background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "horizontal",
+        "vertical"
+      ],
+      "default": "vertical",
+      "required": true
+    },
+    "form": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::form.form"
+    },
+    "link": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": false,
+      "component": "utils-components.link"
+    },
+    "padding": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "top",
+        "bottom",
+        "both",
+        "both_xl"
+      ],
+      "default": "both",
+      "required": true
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "title": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_components_pages",
+  "info": {
+    "displayName": "pages",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "base": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils-components.block-settings"
+    },
+    "pageLink": {
+      "displayName": "pageLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "utils-components.page-link"
+    }
+  }
+}

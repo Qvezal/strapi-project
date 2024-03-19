@@ -1,0 +1,257 @@
+{
+  "blockchain_dev" : {
+    "en" : "Years in blockchain development",
+    "ru" : "Лет в блокчейн разработке"
+  },
+  "customers" : {
+    "en" : "Customers",
+    "ru" : "Клиентов"
+  },
+  "developers" : {
+    "en" : "blockchain developers in our team",
+    "ru" : "Блокчейн разработчиков в команде"
+  },
+  "delivered" : {
+    "en" : "Delivered projects",
+    "ru" : "Реализованных проектов"
+  },
+
+
+
+  "transaction" : {
+    "en" : "Transactions per second",
+    "ru" : "Транзакций в секунду"
+  },
+  "avg_fee" : {
+    "en" : "Avg. transaction fee",
+    "ru" : "Средняя комиссия за транзакцию"
+  },
+  "avg_time" : {
+    "en" : "Avg. block time",
+    "ru" : "Среднее время нахождения блока"
+  },
+  "sec" : {
+    "en" : " sec",
+    "ru" : " сек."
+  },
+  "sharding" : {
+    "en" : "Dynamic sharding",
+    "ru" : "Dynamic sharding"
+  },
+  "sharding_desc" : {
+    "en" : "Efficient scalability",
+    "ru" : "Эффективное масштабирование"
+  },
+
+
+
+
+  "financy" : {
+    "en" : "Finance and Banking",
+    "ru" : "Банки и финансовые организации"
+  },
+  "financy_desc" : {
+    "en" : "Our blockchain solutions provide secure and transparent transaction infrastructure, making them highly relevant for financial institutions. They can be utilized for cross-border payments, remittances, trade finance, asset tokenization, and decentralized lending. The use of blockchain technology in finance and banking enhances security, reduces fraud, increases efficiency, and enables new financial products and services.",
+    "ru" : "Банки и финансовые организации используют блокчейн, чтобы повысить безопасность платежей и создать новые продукты и услуги. Решения подходят для трансграничных платежей, денежных переводов, торгового финансирования, токенизации активов и децентрализованного кредитования. "
+  },
+
+  "chain" : {
+    "en" : "Supply Chain and Logistics",
+    "ru" : "Цепочки поставок и логистика"
+  },
+  "chain_desc" : {
+    "en" : "Blockchain technology offers significant benefits for supply chain and logistics management. It enables real-time tracking, traceability, and verification of goods, enhancing transparency and efficiency. Businesses can use our blockchain solutions to optimize inventory management, prevent counterfeit products, improve logistics coordination, and enhance customer trust through supply chain visibility.",
+    "ru" : "В сфере логистики технология подходит для контроля и управления цепочками поставок в онлайн-режиме. Блокчейн позволяет оптимизировать управление запасами, предотвратить появление контрафактной продукции, улучшить координацию логистики и повысить доверие клиентов."
+  },
+
+  "health" : {
+    "en" : "Healthcare and Pharmaceutical Industry",
+    "ru" : "Здравоохранение и фармацевтическая промышленность"
+  },
+  "health_desc" : {
+    "en" : "In the healthcare sector, blockchain can help secure patient data, ensure the integrity of medical records, and enable secure sharing of sensitive information among healthcare providers. Our solutions can also be used to track and verify the authenticity of pharmaceutical products, preventing the distribution of counterfeit drugs and ensuring patient safety.",
+    "ru" : "В здравоохранении блокчейн позволяет защищать данные пациентов, обеспечивать целостность медицинской документации и безопасный обмен конфиденциальной информацией. Можно отслеживать и проверять подлинность фармацевтической продукции и предотвращать распространение поддельных лекарств."
+  },
+
+  "estate" : {
+    "en" : "Real Estate",
+    "ru" : "Недвижимость"
+  },
+  "estate_desc" : {
+    "en" : "Blockchain solutions can revolutionize the real estate industry by providing a transparent and secure platform for property transactions, title transfers, and land registries. Our blockchain technology can streamline the buying and selling process, automate property management tasks, and enable fractional ownership through tokenization, unlocking liquidity and reducing friction in the market.",
+    "ru" : "Прозрачная и безопасная блокчейн-платформа для сделок с недвижимостью, передачи прав собственности и ведения земельных кадастров. Позволяет оптимизировать процесс купли-продажи, автоматизировать задачи по управлению недвижимостью и предоставить возможность дробного владения."
+  },
+
+  "intellectual" : {
+    "en" : "Intellectual Property and Copyright Protection",
+    "ru" : "Интеллектуальная собственность и защита авторских прав"
+  },
+  "intellectual_desc" : {
+    "en" : "Blockchain's immutability and transparency make it an ideal solution for protecting intellectual property rights and combating copyright infringement. Our blockchain solutions can be used to establish proof of ownership, timestamp creations, and enable secure licensing and royalty distribution for brands, artists, musicians, writers, and other creators.",
+    "ru" : "С помощью блокчейна можно защитить права интеллектуальной собственности и бороться с нарушением авторских прав. Решения позволяют подтверждать права собственности, временно привязывать произведения, безопасно лицензировать и распределять роялти для брендов, художников, музыкантов и писателей."
+  },
+
+  "energy" : {
+    "en" : "Energy and Utilities",
+    "ru" : "Энергетика и коммунальное хозяйство"
+  },
+  "energy_desc" : {
+    "en" : "Blockchain can facilitate the efficient and transparent management of energy resources, including peer-to-peer energy trading, grid management, and renewable energy certificate tracking. Our solutions can empower businesses to optimize energy usage, track carbon emissions, and enable decentralized energy markets, fostering sustainability and energy independence.",
+    "ru" : "Предприятия могут управлять энергоресурсами, включая одноранговую торговлю энергией, управление сетями и отслеживание сертификатов на возобновляемые источники энергии. С помощью блокчейна можно оптимизировать энергопотребление, отслеживать выбросы углекислого газа и создавать децентрализованные рынки."
+  },
+
+  "commerce" : {
+    "en" : "E-commerce and Retail",
+    "ru" : "Электронная коммерция и розничная торговля"
+  },
+  "commerce_desc" : {
+    "en" : "Blockchain technology can enhance trust and security in e-commerce transactions by providing immutable records of product provenance, authenticating sellers, and enabling secure payment systems. Our blockchain solutions can offer verifiable product information, streamline supply chain logistics, and enable seamless cross-border transactions, boosting consumer confidence and reducing fraud.",
+    "ru" : "Блокчейн обеспечивает неизменность информации о происхождении товара, аутентификацию продавцов и безопасность платежных систем. С помощью решений бизнес может получать достоверную информацию о товарах, оптимизировать логистические цепочки и проводить трансграничные операции."
+  },
+
+  "insurance" : {
+    "en" : "Insurance",
+    "ru" : "Страхование"
+  },
+  "insurance_desc" : {
+    "en" : "The use of blockchain can transform insurance processes by automating claims management, improving fraud detection, and enhancing underwriting accuracy. Our solutions can enable secure storage of policyholder information, automate claims settlement through smart contracts, and facilitate peer-to-peer insurance models, enhancing efficiency and reducing costs for insurers and policyholders.",
+    "ru" : "В сфере страхования блокчейн позволяет трансформировать страховые процессы, автоматизировать управление страховыми случаями и выявлять случаи мошенничества. Решения позволяют безопасно хранить информацию о страхователях, автоматизировать и урегулировать претензии и упрощать модели однорангового страхования."
+  },
+
+
+
+  "example" : {
+    "en" : "Example",
+    "ru" : "Пример"
+  },
+
+  "tab1_name" : {
+    "ru" : "Enterprise Blockchain",
+    "en" : "Enterprise Blockchain"
+  },
+  "tab1_title" : {
+    "ru" : "Enterprise Blockchain as a Service",
+    "en" : "Enterprise Blockchain as a Service"
+  },
+  "tab1_desc" : {
+    "ru" : "Мы предоставляем доверенную высокодоступную блокчейн платформу как сервис для ваших бизнес задач. Благодаря архитектуре нашего блокчейн решения, каждый новый участник повышает доступность и надежность сети, принимая участие в валидации транзакций.",
+    "en" : "Our blockchain solutions provide secure and transparent transaction infrastructure, making them highly relevant for financial institutions. They can be utilized for cross-border payments, remittances, trade finance, asset tokenization, and decentralized lending. The use of blockchain technology in finance and banking enhances security, reduces fraud, increases efficiency, and enables new financial products and services."
+  },
+
+  "tab2_name" : {
+    "ru" : "SDK-инструменты разработки",
+    "en" : "SDK tools for the development"
+  },
+  "tab2_title" : {
+    "ru" : "SDK-инструменты разработки и валидации смарт контрактов",
+    "en" : "SDK tools for the development and validation of smart contracts"
+  },
+  "tab2_desc" : {
+    "ru" : "Наш BaaS позволяет клиентам реализовывать свою бизнес логику, используя инструменты разработки, SDK, компилятор, инструменты тестирования.",
+    "en" : "Our BaaS allows customers to implement their business logic using development tools, SDKs, compiler, and testing tools."
+  },
+
+  "tab3_name" : {
+    "ru" : "Мобильное приложение",
+    "en" : "Mobile application for asset"
+  },
+  "tab3_title" : {
+    "ru" : "Мобильное приложение для управления активами и транзакциями",
+    "en" : "Mobile application for asset and transaction management"
+  },
+  "tab3_desc" : {
+    "ru" : "Наше приложение для iOS, Android и бот для Telegram, позволяют хранить и управлять цифровыми активами, зарегистрированными в блокчейн сети. Благодаря модульной архитектуре приложение может расширяться внешними модулями для специфических бизнес-задач клиента.",
+    "en" : "Our application for iOS and Android allows you to store and manage assets registered in the blockchain network. Thanks to its modular architecture, the application can be extended with external modules for specific client business tasks."
+  },
+
+  "tab4_name" : {
+    "ru" : "Blockchain Explorer",
+    "en" : "Blockchain Explorer"
+  },
+  "tab4_title" : {
+    "ru" : "Blockchain Explorer",
+    "en" : "Blockchain Explorer"
+  },
+  "tab4_desc" : {
+    "ru" : "Компонент для анализа данных в блокчейне: отслеживания транзакций, проверки смарт-контрактов и сохранности активов.",
+    "en" : "A component for analyzing data on the blockchain: tracking transactions, verifying smart contracts, and safeguarding assets."
+  },
+
+  "tab5_name" : {
+    "ru" : "NFT-платформа",
+    "en" : "NFT management platform"
+  },
+  "tab5_title" : {
+    "ru" : "NFT-платформа",
+    "en" : "NFT management platform"
+  },
+  "tab5_desc" : {
+    "ru" : "Платформа для создания, управления NFT контрактами и их коллекциями.\n\nПодходит для реализации сервисов инвестирования, программ лояльности, выпуска билетов и многого другого.",
+    "en" : "A platform for creating, and managing NFT contracts and their collections. Suitable for the implementation of investment services, loyalty programs, ticket issuance, and much more."
+  },
+
+  "tab6_name" : {
+    "ru" : "NFT bridge",
+    "en" : "NFT bridge"
+  },
+  "tab6_title" : {
+    "ru" : "NFT bridge",
+    "en" : "NFT bridge"
+  },
+  "tab6_desc" : {
+    "ru" : "Система позволяет передавать NFT между двумя разными блокчейнами в рамках единого интерфейса с подтверждением на уровне smart-контрактов.",
+    "en" : "It is a two-way transaction channel between different blockchain networks within a single interface with smart-contract-level validation."
+  },
+
+  "tab7_name" : {
+    "ru" : "WEB2 и WEB3",
+    "en" : "WEB2 to WEB3 Gateway"
+  },
+  "tab7_title" : {
+    "ru" : "Платежный шлюз между WEB2 и WEB3",
+    "en" : "WEB2 to WEB3 Gateway"
+  },
+  "tab7_desc" : {
+    "ru" : "Компонент, реализующий надежную интеграцию блокчейн приложений с традиционными финансовыми системами.\n\nПоддерживаются интерфейсы систем онлайн и оффлайн платежей, пластиковых карт, фискальных систем, специализированных отраслевых решений, автоматическая конвертация валют.",
+    "en" : "A component that provides reliable integration of blockchain applications with traditional financial systems.\nIt supports interfaces of online and offline payment systems, plastic cards, fiscal systems, specialized industry solutions, and automatic currency conversion."
+  },
+
+  "tab8_name" : {
+    "ru" : "AMM-платформа",
+    "en" : "AMM platform"
+  },
+  "tab8_title" : {
+    "ru" : "AMM-платформа",
+    "en" : "AMM platform"
+  },
+  "tab8_desc" : {
+    "ru" : "Платформа для регистрации цифровых активов (Fungible Token), управления эмиссией и быстрого и удобного обмена цифровых активов в форме Liquidity based.",
+    "en" : "A platform for registration of digital assets (Fungible Token), issue management and quick and easy exchange of digital assets in the form of Liquidity based."
+  },
+
+  "tab9_name" : {
+    "ru" : "Управление пользователями",
+    "en" : "User Management (KYC & KYB)"
+  },
+  "tab9_title" : {
+    "ru" : "Управление пользователями\n(KYC & KYB)",
+    "en" : "User Management\n(KYC & KYB)"
+  },
+  "tab9_desc" : {
+    "ru" : "Подсистема управления учетными записями конечных клиентов и бизнеса. Поддерживает роли, статусы и имеет интеграцию с традиционными источниками аутентификации, такими как: Google, Yandex, Госуслуги, LDAP и пр.",
+    "en" : "Subsystem for managing end-customer and business accounts. Supports roles, and statuses and has integration with traditional authentication sources such as Google, Yandex, Gosuslugi, LDAP, etc."
+  },
+
+  "tab10_name" : {
+    "ru" : "Fraud Management System",
+    "en" : "Fraud Management System"
+  },
+  "tab10_title" : {
+    "ru" : "Fraud Management System",
+    "en" : "Fraud Management System"
+  },
+  "tab10_desc" : {
+    "ru" : "Подсистема позволяет управлять транзакциями в ваших бизнес-системах, путем регистрации политик безопасности и контроля нестандартных операций.",
+    "en" : "The subsystem allows you to manage transactions in your business systems by registering security policies and controlling non-standard transactions."
+  }
+}

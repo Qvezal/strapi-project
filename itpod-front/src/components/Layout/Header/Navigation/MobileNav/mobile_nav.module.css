@@ -1,0 +1,18 @@
+.burger {
+  padding: 10px !important;
+  border-radius: 50%;
+  max-height: 40px;
+  position: relative;
+  z-index: 5;
+}
+
+.burger_close {
+  background-color: var(--c-hover-blue) !important;
+}
+
+
+@media (min-width: 992px) {
+  .menu_overlay {
+    margin-right: 58px !important;
+  }
+}

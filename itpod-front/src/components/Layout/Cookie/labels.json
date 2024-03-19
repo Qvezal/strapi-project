@@ -1,0 +1,10 @@
+{
+  "cookie": {
+    "ru-RU" : "Пользуясь нашим сайтом, вы соглашаетесь с тем, что мы используем cookies",
+    "en-US" : "By using our website, you agree to to our use of cookies"
+  },
+  "button": {
+    "ru-RU" : "Хорошо",
+    "en-US" : "OK"
+  }
+}

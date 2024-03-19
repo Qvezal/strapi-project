@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "server_sizes",
+  "info": {
+    "singularName": "server-size",
+    "pluralName": "server-sizes",
+    "displayName": "server_size",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "servers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::server.server",
+      "mappedBy": "server_size"
+    }
+  }
+}

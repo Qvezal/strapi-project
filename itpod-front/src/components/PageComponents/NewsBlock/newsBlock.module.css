@@ -1,0 +1,138 @@
+.news_wrapper {
+    position: relative;
+}
+
+.swiper {
+    padding-bottom: 30px;
+}
+
+.swiper .swiper-scrollbar {
+    background-color: aqua !important;
+}
+
+.navigation {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+
+    .swiper {
+        padding-bottom: 43px;
+    }
+
+    .navigation {
+        display: flex;
+        position: absolute;
+        gap: 12px;
+        right: 0;
+        top: calc(100% - 24px);
+    }
+}
+
+.header {
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+@media (min-width: 1200px) {
+    .header {
+        margin-top: 32px;
+        margin-bottom: 56px;
+    }
+}
+
+.tags {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+
+  overflow: auto;
+  width: 100vw;
+  margin-left: -16px;
+  padding: 0 16px;
+
+  -ms-overflow-style: none;  /* IE и Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.tags::-webkit-scrollbar {
+    display: none;
+}
+
+.header_tag:hover div {
+    border-color: rgba(69, 22, 255, 0.52) !important;
+    color: var(--c-accent-blue) !important;
+}
+
+.header_tag:active div {
+    border-color: var(--c-accent-blue) !important;
+    color: var(--c-accent-blue) !important;
+}
+
+.active div {
+    border-color: var(--c-accent-blue) !important;
+    color: var(--c-accent-blue) !important;
+}
+
+.card {
+    height: 216px;
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+@media (min-width: 1200px) {
+    .card {
+        height: 296px;
+    }
+
+    .tags {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+}
+
+.card_link {
+    margin-top: auto;
+}
+
+.card_link button {
+    height: fit-content !important;
+}
+
+.card_link p {
+    color: var(--c-accent-blue);
+}
+
+.card_link:hover p {
+    color: var(--c-accent-blue3);
+}
+
+.card_link:active p {
+    color: var(--c-accent-blue4);
+}
+
+.news_name {
+    height: fit-content;
+    margin-top: 13px;
+    display: -webkit-box; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 3; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.load_more {
+    margin-top: 24px;
+}
+
+@media (min-width: 1200px) {
+    .load_more {
+        margin-top: 32px;
+    }
+}
+
+.tags p {
+    color: var(--t-dark);
+}

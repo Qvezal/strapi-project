@@ -1,0 +1,166 @@
+.wrapper {
+    min-height: 632px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper_first_block {}
+
+.description {
+    margin-top: 8px;
+}
+
+.left_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    .title {
+        color: var(--t-white);
+    }
+
+    /* .description {
+        margin-bottom: 8px;
+    } */
+
+    .title-blue {
+        color: var(--t-white);
+    }
+
+    .description-blue {
+        color: var(--t-white80);
+    }
+
+    .title-white,
+    .title-gray {
+        color: var(--t-dark);
+    }
+
+    .description-white,
+    .description-gray {
+        color: var(--t-dark60);
+    }
+}
+
+.left_side_success {}
+
+.right_side {
+    margin-top: auto;
+}
+
+.right_side_hidden {
+    visibility: hidden;
+}
+
+.again_btn {
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+        position: relative;
+        min-height: unset;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .wrapper_first_block {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .wrapper_first_block button {
+        width: 100%;
+    }
+
+    .wrapper_first_block .right_side,
+    .wrapper_first_block .left_side {
+        width: 100%;
+    }
+
+    .left_side {
+        width: 400px;
+    }
+
+    .right_side {
+        width: 385px;
+    }
+
+    .again_btn {
+        /* position: initial; */
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .left_side {
+        width: 424px;
+        justify-content: space-between;
+    }
+
+    .description {
+        margin-top: 0;
+    }
+    
+    .left_side_success {
+        width: 528px;
+    }
+
+    .right_side {
+        width: 534px;
+    }
+
+    .wrapper_first_block {
+        height: 100%;
+    }
+
+    .wrapper_first_block button {
+        width: fit-content;
+    }
+
+    .wrapper_first_block .right_side form div:last-child{
+        flex-direction: column;
+    }
+
+    .wrapper_first_block .right_side form div:last-child span{
+        margin-top: 16px;
+        text-align: start;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    .left_side {
+        width: 591px;
+    }
+
+    .right_side {
+        width: 730px;
+    }
+
+    .wrapper_first_block {
+        height: 100%;
+    }
+}
+
+.title p {
+    font-size: 26px;
+	font-weight: 400;
+	line-height: 33px;
+	letter-spacing: -0.015em;
+}
+
+.title p strong {
+    font-weight: 400;
+    color: var(--t-dark60);
+}
+
+@media (min-width:1200px) {
+    .title p {
+        font-size: 42px;
+		font-weight: 400;
+		line-height: 48px;
+		letter-spacing: -0.025em;
+    }
+}

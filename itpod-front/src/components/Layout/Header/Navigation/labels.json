@@ -1,0 +1,26 @@
+{
+  "experience" : {
+    "ru" : "Наша экспертиза",
+    "en" : "Our Experience"
+  },
+  "products" : {
+    "ru" : "Продукты",
+    "en" : "Products"
+  },
+  "technology" : {
+    "ru" : "Технологии",
+    "en" : "Technology"
+  },
+  "cases" : {
+    "ru" : "Для кого",
+    "en" : "Use cases"
+  },
+  "faq" : {
+    "ru" : "FAQ",
+    "en" : "FAQ"
+  },
+  "contact_us" : {
+    "ru" : "Написать нам",
+    "en" : "Contact Us"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_components_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "base": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils-components.block-settings"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils-components.faq_item"
+    }
+  }
+}

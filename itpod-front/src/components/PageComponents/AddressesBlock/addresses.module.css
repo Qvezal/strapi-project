@@ -1,0 +1,105 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.map_card iframe{
+    height: 320px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.address_card {
+    height: 320px;
+    width: calc(100vw - 40px);
+}
+
+.content,
+.top_content,
+.bottom_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    height: 100%;
+    justify-content: space-between;
+}
+
+/* .address,
+.hours,
+.phone,
+.mail {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+} */
+
+.hours {
+    color: var(--t-dark60);
+}
+
+.tab_head_wrapper {
+    display: flex;
+    white-space: nowrap;
+    padding: 0 16px;
+    margin: 0 -16px;
+    margin-bottom: 16px;
+    
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.tab_head_wrapper::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+}
+
+@media (min-width: 768px) {
+    /* .tab_head_wrapper {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .tab_head_wrapper > div {
+        width: 100%;
+    } */
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    .address_card {
+        width: initial;
+    }
+
+    .tab_head_wrapper > div {
+        width: initial;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .wrapper {
+        gap: 20px;
+    }
+
+    .address_card,
+    .map_card > iframe {
+        height: 512px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .top_content h4:last-child,
+    .bottom_content h4:last-child {
+        margin-top: 4px;
+    }
+}

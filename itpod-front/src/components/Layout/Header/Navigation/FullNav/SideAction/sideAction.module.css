@@ -1,0 +1,34 @@
+.address {
+  margin-top: auto;
+  color: var(--t-dark60);
+}
+
+.contacts p {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.contacts a:hover {
+  color: var(--c-accent-blue2);
+}
+
+.form {
+  margin-top: auto;
+  height: fit-content !important;
+  justify-content: start !important;
+  color: var(--c-accent-blue);
+  transition: color 0.2s ease-in-out;
+}
+
+.form:hover {
+  color: var(--c-accent-blue3);
+}
+
+.form:active {
+  color: var(--c-accent-blue4);
+}
+
+.card {
+  padding: 16px !important;
+  height: 100%;
+}

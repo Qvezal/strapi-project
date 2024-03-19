@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_page_components_card_ctas",
+  "info": {
+    "displayName": "cards_cta",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "base": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils-components.block-settings"
+    },
+    "nums_in_row": {
+      "type": "integer",
+      "default": 3,
+      "required": true,
+      "max": 3
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils-components.card"
+    },
+    "form": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::form.form"
+    },
+    "cards_overflow": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "less_min_height": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "cta_card_color": {
+      "type": "enumeration",
+      "enum": [
+        "blue",
+        "gray"
+      ],
+      "default": "blue",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.lang, .active {
+  color: var(--t-dark70);
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+}
+
+.active {
+  color: var(--t-white) !important;
+  position: relative;
+  z-index: 3;
+}
+
+.active:visited {
+  color: var(--t-white);
+}
+
+.active:hover {
+  color: var(--c-accent-orange);
+}
+
+.link:hover {
+  color: var(--c-accent-orange) !important;
+}
+
+.foreign {
+  position: absolute;
+  z-index: 4;
+  opacity: 0;
+  transform: translateY(-5px);
+  transition: transform .2s, opacity .1s;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(5px);
+}

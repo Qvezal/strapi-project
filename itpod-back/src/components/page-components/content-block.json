@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_page_components_content_blocks",
+  "info": {
+    "displayName": "content_block",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "base": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils-components.block-settings"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "custom_mobile_content": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "mobile_content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

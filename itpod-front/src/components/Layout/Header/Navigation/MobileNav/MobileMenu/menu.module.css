@@ -1,0 +1,63 @@
+.menu {
+  margin-top: 70px;
+}
+
+.contacts {
+  margin-top: 10px;
+}
+
+.contacts p {
+  margin-top: 6px;
+}
+
+.btn {
+  margin-top: 24px;
+}
+
+.address {
+  color: var(--t-dark60);
+}
+
+.nav {
+  padding: 0 !important;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+  padding: 5px !important;
+}
+
+.menu_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  min-height: 72px;
+}
+
+.menu_item button {
+  height: fit-content;
+}
+
+.menu_item:not(:last-child) {
+  border-bottom: 1px solid var(--t-dark15);
+}
+
+.disabled {
+  cursor: default;
+  color: var(--t-dark60);
+}
+
+.back {
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.back .arrow {
+  transform: rotateY(180deg);
+}

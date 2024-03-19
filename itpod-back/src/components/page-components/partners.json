@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_components_partners",
+  "info": {
+    "displayName": "partners",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "base": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils-components.block-settings"
+    },
+    "form_description": {
+      "type": "string"
+    }
+  }
+}

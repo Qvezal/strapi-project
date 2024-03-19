@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_components_contacts",
+  "info": {
+    "displayName": "Contacts",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "base": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils-components.block-settings"
+    }
+  }
+}

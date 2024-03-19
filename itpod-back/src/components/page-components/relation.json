@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_components_relations",
+  "info": {
+    "displayName": "relation",
+    "icon": "arrowDown"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "type",
+        "server"
+      ]
+    },
+    "server_units": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "base": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils-components.block-settings"
+    }
+  }
+}

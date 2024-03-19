@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_utils_components_page_links",
+  "info": {
+    "displayName": "productLink",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    },
+    "image": {
+      "type": "enumeration",
+      "enum": [
+        "g1",
+        "g2",
+        "g2_s",
+        "g3",
+        "g4",
+        "gp1",
+        "gp2",
+        "s1",
+        "ds1",
+        "n1"
+      ],
+      "default": "g2",
+      "required": true
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

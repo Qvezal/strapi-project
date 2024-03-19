@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_components_cards",
+  "info": {
+    "displayName": "Cards",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "base": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils-components.block-settings"
+    },
+    "nums_in_row": {
+      "type": "integer",
+      "default": 3,
+      "required": true,
+      "max": 3
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils-components.card"
+    },
+    "cards_block_media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    }
+  }
+}

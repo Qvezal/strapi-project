@@ -1,0 +1,11 @@
+.name {
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 1200px) {
+  .name {
+    margin-top: 32px;
+    margin-bottom: 56px;
+  }
+}

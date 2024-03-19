@@ -1,0 +1,32 @@
+.content {
+  height: 336px;
+  position: relative;
+}
+
+.logo {
+  height: 43px;
+  width: 147px;
+}
+
+.description {
+  position: absolute;
+  bottom: 33.6px;;
+  max-height: 258px;
+  display: flex;
+  align-items: end;
+  flex-direction: row;
+  color: var( --t-dark70);
+}
+
+.link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: var(--c-accent-blue)!important;
+  display: flex;
+  align-items: center;
+}
+
+.link img {
+  margin-left: 4px;
+}

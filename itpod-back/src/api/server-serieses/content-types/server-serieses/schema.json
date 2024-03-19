@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "server_series",
+  "info": {
+    "singularName": "server-serieses",
+    "pluralName": "server-series",
+    "displayName": "server_series",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "customField",
+      "options": {
+        "pattern": "title"
+      },
+      "customField": "plugin::slug.slug"
+    },
+    "page_blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "page-components.addresses",
+        "page-components.banner",
+        "page-components.card-cta",
+        "page-components.cards",
+        "page-components.contacts",
+        "page-components.content-block",
+        "page-components.first-block",
+        "page-components.pages",
+        "page-components.partners",
+        "page-components.servers-slider",
+        "page-components.relation"
+      ]
+    },
+    "card_img": {
+      "type": "enumeration",
+      "enum": [
+        "g1",
+        "g2",
+        "g2_s",
+        "g3",
+        "g4",
+        "gp1",
+        "gp2",
+        "s1"
+      ],
+      "default": "g2",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "servers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::server.server",
+      "mappedBy": "server_series"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

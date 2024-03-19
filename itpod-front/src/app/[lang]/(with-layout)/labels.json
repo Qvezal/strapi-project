@@ -1,0 +1,48 @@
+{
+    "fs_start" : {
+        "en" : "A full suite",
+        "ru" : "Цифровая трансформация"
+    },
+    "fs_end" : {
+        "en" : " of blockchain products and solutions",
+        "ru" : " бизнеса с помощью блокчейн-решений"
+    },
+
+
+    "expertise" : {
+        "en" : "Our expertise",
+        "ru" : "Наша экспертиза"
+    },
+    "products" : {
+        "en" : "Our products",
+        "ru" : "Наши продукты"
+    },
+    "products_desc" : {
+        "en" : "Off-the-shelf modules for creating customized blockchain solutions.",
+        "ru" : "Готовые модули для создания индивидуальных решений на базе блокчейн платформы."
+    },
+    "technology" : {
+        "en" : "Our technology",
+        "ru" : "Преимущества наших технологий"
+    },
+    "cases" : {
+        "en" : "Use Cases",
+        "ru" : "Кому будет полезен ITGold"
+    },
+
+
+    "proposal" : {
+        "en" : "Get a proposal",
+        "ru" : "Узнать подробнее"
+    },
+
+
+    "promo_text" : {
+        "en" : "Off-the-shelf modules for creating customized blockchain solutions",
+        "ru" : "Мы собираем готовое кастомизированное решение исходя из задачи бизнеса"
+    },
+    "promo_btn" : {
+        "en" : "Get a consultation",
+        "ru" : "Подробнее"
+    }
+}

@@ -1,0 +1,199 @@
+.info {
+  margin-top: 40px;
+}
+
+.title {
+  margin: 0 !important;
+}
+
+.swiper_wrapper {
+  position: relative;
+  left: -16px;
+  width: calc(100% + 32px) !important;
+}
+
+.anchor span {
+  color: var(--bg-blue);
+  margin-top: auto;
+}
+
+.anchor img {
+  vertical-align: sub;
+}
+
+.title span {
+  font-size: 36px;
+  line-height: 43.2px;
+  color: var(--t-dark60);
+}
+
+.form {
+  width: 100%;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.conf {
+  margin-top: 32px;
+}
+
+.conf figure table tbody {
+  display: block;
+  width: 100%;
+}
+
+.conf figure table colgroup {
+  display: none;
+}
+
+.conf figure table tr {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  border-top: 1px solid var(--t-dark15);
+  padding: 24px 0;
+}
+
+.conf figure table tr td:first-child {
+  color: var(--t-dark60);
+}
+
+.conf figure table tr td p:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.links {
+  margin-top: 16px;
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link {
+  min-height: 216px;
+}
+
+.link a {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  color: var(--c-accent-blue);
+  font-size: 16px;
+  line-height: 21.6px;
+}
+
+.desctop {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .server {
+    display: flex;
+    align-items: stretch;
+    gap: 40px;
+    margin-top: 32px;
+  }
+  
+  .links {
+    margin-bottom: 0;
+  }
+
+  .mobile_br {
+    display: none;
+  }
+
+  .form {
+    width: unset;
+  }
+
+  .info {
+    margin-top: 0;
+    flex: 1;
+  }
+
+  .image_wrapper {
+    width: 392px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title span {
+    font-size: 66px;
+    line-height: 66px;
+  }
+
+  .title {
+    margin-bottom: 16px !important;
+  }
+
+  .swiper_wrapper {
+    position: relative;
+    left: -24px;
+    width: calc(100% + 48px) !important;
+  }
+  
+  .conf figure table tr {
+    display: block;
+  }
+
+  .conf figure table tr td:first-child {
+    width: 226px;
+    vertical-align: top;
+  }
+
+  .mobile_br {
+    display: block;
+  }
+
+  .link {
+    min-height: unset;
+  }
+
+  .link a {
+    margin-top: 16px;
+  }
+
+  .form {
+    margin-top: 32px;
+  }
+
+  .conf {
+    margin-top: 54px;
+  }
+
+  .conf figure table tr {
+    flex-direction: row;
+  }
+
+  .image_wrapper {
+    width: 529px;
+  }
+}
+
+@media (min-width: 1521px) {
+  .mobile_br {
+    display: none;
+  }
+}
+
+@media (min-width: 1530px) {
+  .desctop {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .server {
+    gap: 54px;
+  }
+
+  .image_wrapper {
+    width: 719px;
+  }
+}

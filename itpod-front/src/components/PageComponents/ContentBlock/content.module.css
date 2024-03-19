@@ -1,0 +1,180 @@
+.wrapper {
+    width: 100%;
+}
+
+.no_content {
+    margin-bottom: -32px;
+}
+
+.content_md {
+    display: none;
+}
+
+.content img {
+    width: 100%;
+}
+
+.mobile_content img {
+    width: 100%;
+    max-height: 1086px;
+    object-fit: contain;
+}
+
+.content figure,
+.mobile_content figure {
+    width: calc(100% + 40px);
+    position: relative;
+    left: -20px;
+    padding-left: 20px;
+    overflow-x: auto;
+}
+
+.content table,
+.mobile_content table {
+    display: inline-table;
+    width: 100%;
+    color: var(--t-dark70);
+    border-spacing: 0;
+    padding-right: 20px;
+    padding-bottom: 9px;
+}
+
+.content thead > tr > th,
+.mobile_content thead > tr > th {
+    text-align: start;
+    background-color: var(--bg-gray);
+}
+
+.content tr th {
+    border-top: 1px solid var(--t-dark15);
+}
+
+.content tr th,
+.content tr td,
+.mobile_content tr th,
+.mobile_content tr td {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    white-space: nowrap;
+    border-right: 1px solid var(--t-dark15);
+    border-bottom: 1px solid var(--t-dark15);
+    padding: 16px 20px 15px 20px;
+}
+
+.content tr th:first-child,
+.content tr td:first-child,
+.mobile_content tr th:first-child,
+.mobile_content tr td:first-child {
+    border-left: 1px solid var(--t-dark15);
+}
+
+.content tr:first-child th:first-child {
+    border-top-left-radius: 12px;
+}
+
+.content tr:first-child th:last-child {
+    border-top-right-radius: 12px;
+}
+
+.content tr:last-child td:first-child {
+    border-bottom-left-radius: 12px;
+}
+
+.content tr:last-child td:last-child {
+    border-bottom-right-radius: 12px;
+}
+
+@media (min-width: 992px) {
+    .content_md {
+        display: block;
+    }
+
+    .mobile_content{
+        display: none;
+    }
+
+    .content figure,
+    .mobile_content figure {
+        position: initial;
+        padding: 0;
+        width: 100%;
+    }
+
+    .content table,
+    .mobile_content table {
+        padding: 0;
+    }
+
+    .content tr th,
+    .content tr td,
+    .mobile_content tr th,
+    .mobile_content tr td {
+        white-space: initial;
+    }
+}
+
+.content p {
+    color: var(--t-dark70);
+}
+
+.content p:not(:first-child) {
+    margin-top: 16px;
+}
+
+.content h4 {
+    margin-top: 16px;
+}
+
+.content p a {
+    color: var(--c-accent-blue);
+    letter-spacing: 0.04rem;
+}
+
+.content h2 {
+    color: var(--t-dark);
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.content ol {
+    margin-left: 18px;
+    margin-top: 16px;
+}
+
+.content ol li:not(:first-child) {
+    margin-top: 8px;
+}
+
+.content ol li {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--t-dark70);
+}
+
+.content ol li a {
+    color: var(--c-accent-blue);
+    letter-spacing: 0.04rem;
+}
+
+@media (min-width: 1200px) {
+
+    .no_content {
+        margin-bottom: -40px;
+    }
+
+    .content h2 {
+        margin-top: 40px;
+        margin-bottom: 16px;
+    }
+
+    .content h4 {
+        margin-top: 24px;
+    }
+    
+    
+    .content ol {
+        margin-top: 24px;
+    }
+}

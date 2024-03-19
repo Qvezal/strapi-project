@@ -1,0 +1,148 @@
+.container {
+  margin-bottom: 64px;
+}
+
+@media (min-width: 992px) {
+  .container {
+    margin-bottom: 72px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 1530px) {
+  .container {
+    margin-bottom: 128px;
+  }
+}
+
+.header {
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 1200px) {
+  .header {
+    margin-top: 32px;
+    margin-bottom: 56px;
+  }
+}
+
+.tags {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  overflow: scroll;
+  max-width: 100%;
+
+  -ms-overflow-style: none;  /* IE и Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.tags::-webkit-scrollbar {
+  display: none;
+}
+
+.header_tag:hover div {
+  border-color: rgba(69, 22, 255, 0.52) !important;
+  color: var(--c-accent-blue) !important;
+}
+
+.header_tag:active div {
+  border-color: var(--c-accent-blue) !important;
+  color: var(--c-accent-blue) !important;
+}
+
+.active div {
+  border-color: var(--c-accent-blue) !important;
+  color: var(--c-accent-blue) !important;
+}
+
+.events_wrapper {
+  display: grid;
+  gap: 10px;
+  margin-top: 24px;
+  max-width: 100%;
+}
+
+@media (min-width: 992px) {
+  .events_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .events_wrapper {
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1530px) {
+  .events_wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  height: 216px;
+  max-width: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+@media (min-width: 1200px) {
+  .card {
+    height: 296px;
+  }
+}
+
+.card_link {
+  margin-top: auto;
+}
+
+.card_link p {
+  color: var(--c-accent-blue);
+}
+
+.card_link:hover p {
+  color: var(--c-accent-blue3);
+}
+
+.card_link:active p {
+  color: var(--c-accent-blue4);
+}
+
+.events_name {
+  max-height: 99px;
+  margin-top: 13px;
+  display: -webkit-box; 
+  -webkit-box-orient: vertical; 
+  -webkit-line-clamp: 3; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+.load_more {
+  margin-top: 24px;
+}
+
+.empty {
+  color: var(--t-dark60);
+}
+
+@media (min-width: 992px) {
+  .empty {
+    min-width: max-content;
+  }
+}
+
+@media (min-width: 1200px) {
+  .load_more {
+    margin-top: 32px;
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title_address": {
+    "ru-RU": "Юридический адрес",
+    "en-US": "Legal address"
+  },
+  
+  "title_phone": {
+    "ru-RU": "Для связи",
+    "en-US": "For contact"
+  }
+}

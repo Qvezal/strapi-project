@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_contacts",
+  "info": {
+    "singularName": "site-contact",
+    "pluralName": "site-contacts",
+    "displayName": "Site_contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "phone": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "+7 000 000-00-00"
+    },
+    "email": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "email",
+      "default": "itpod@gmail.com"
+    },
+    "address": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "time": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "09:00-18:00"
+    }
+  }
+}

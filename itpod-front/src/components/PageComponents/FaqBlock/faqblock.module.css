@@ -1,0 +1,12 @@
+.faq_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media (min-width: 1200px) {
+  .faq_wrapper {
+    flex: 1 1 100%;
+    gap: 12px;
+  }
+}

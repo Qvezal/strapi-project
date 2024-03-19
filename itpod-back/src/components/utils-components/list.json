@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_utils_components_lists",
+  "info": {
+    "displayName": "List",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "list_title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils-components.item"
+    },
+    "list_description": {
+      "type": "string"
+    }
+  }
+}

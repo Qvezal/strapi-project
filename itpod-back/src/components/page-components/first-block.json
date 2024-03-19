@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_components_main_blocks",
+  "info": {
+    "displayName": "First_block",
+    "icon": "crown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "with_expand_form": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "base": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils-components.block-settings"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

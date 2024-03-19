@@ -1,0 +1,240 @@
+.input, .textarea {
+  width: 100%;
+  padding: 15px 15px 0 0;
+  height: 46px;
+
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.02rem;
+  font-weight: 400;
+
+  color: var(--t-dark);
+
+  /* border-top-left-radius: 5px;
+  border-top-right-radius: 5px; */
+  transition: border-bottom .2s ease-in-out;
+}
+
+.textarea {
+  height: fit-content;
+  /* max-height: 92px; */
+  padding-top: 0;
+  padding-right: 0;
+}
+
+.is_required {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: -22px;
+}
+
+.textarea textarea {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-right: 15px;
+  resize: none;
+  text-align: justify;
+  -moz-text-align-last: center;
+  
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.input:focus + .label,
+.input:not(:placeholder-shown) + .label, .textarea:focus-within .label, .textarea textarea:not(:placeholder-shown) + .label {
+  transform: translateY(-30%) scale(0.75);
+}
+
+.textarea textarea:focus {
+  min-height: 76px;
+  margin-top: 0;
+  outline: none;
+}
+
+.textarea textarea:not(:placeholder-shown):not(:focus) {
+  min-height: 76px;
+  margin-top: 18px;
+}
+
+.textarea:focus-within {
+  min-height: 92px;
+  padding-top: 18px;
+}
+
+.input::placeholder, .textarea::placeholder {
+  color: transparent;
+}
+
+.input_wrapper {
+  position: relative;
+}
+
+.sended input:invalid + .label ,
+.sended textarea:invalid + .label {
+  color: var(--t-error);
+}
+
+.label {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  pointer-events: none;
+  transform-origin: left center;
+  transition: transform 250ms;
+}
+
+.label-light {
+  color: var(--t-dark60);
+}
+
+.label-dark {
+  color: var(--t-white80);
+}
+
+.label-gray {
+  color: var(--t-dark60);
+}
+
+.label-blue {
+  color: var(--t-white80);
+}
+
+.light {
+  border-bottom: 1px solid var(--t-dark15);
+  background-color: var(--t-white);
+}
+
+.light:hover {
+  border-bottom: 1px solid var(--t-dark60);
+}
+
+.light:focus {
+  border-bottom: 1px solid var(--t-dark);
+}
+
+.gray {
+  color: var(--t-dark);
+  border-bottom: 1px solid var(--t-dark15);
+  background-color: var(--bg-gray);
+}
+
+.gray:hover {
+  border-bottom: 1px solid var(--t-dark60);
+}
+
+.gray:focus {
+  border-bottom: 1px solid var(--t-dark);
+}
+
+.dark {
+  color: var(--t-white);
+  background-color: var(--t-dark);
+  border-bottom: 1px solid var(--t-white30);
+}
+
+.dark:hover {
+  border-bottom: 1px solid var(--t-white60);
+}
+
+.dark:focus {
+  border-bottom: 1px solid var(--t-white);
+}
+
+.blue {
+  border-bottom: 1px solid var(--t-white30);
+  background-color: var(--bg-blue);
+  color: var(--t-white);
+}
+
+.blue:hover {
+  border-bottom: 1px solid var(--t-white80);
+}
+
+.blue:focus {
+  border-bottom: 1px solid var(--t-white);
+}
+
+.range_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+}
+
+.range_input {
+  width: 100%;
+  position: relative;
+}
+
+.range_name {
+  color: var(--t-dark60);
+}
+
+.range_info {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+.plus, .minus {
+  width: 16px;
+  height: 16px;
+}
+
+.plus:hover svg g path, .minus:hover svg g path {
+  stroke: var(--t-dark70);
+  stroke-opacity: 1;
+}
+
+.plus:active svg g path, .minus:active svg g path {
+  stroke: var(--t-dark);
+}
+
+.minus {
+  margin-right: 16px;
+}
+
+.plus {
+  margin-left: auto;
+}
+
+.range_input_active {
+  height: 1px;
+  content: '';
+  position: absolute;
+  bottom: 6px;
+  background-color: var(--c-accent-blue);
+  z-index: 2;
+}
+
+.range_input_default {
+  height: 1px;
+  content: '';
+  position: absolute;
+  bottom: 6px;
+  background-color: var(--t-dark15);
+  width: 100%;
+  z-index: 1;
+}
+
+.range {
+  border: none;
+  padding-right: 0;
+}
+
+.range::-moz-range-progress,
+.range::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  background-color: var(--c-accent-blue);
+  height: 1px;
+}
+
+.info_label {
+  margin-top: 10px;
+  color: var(--t-dark);
+}

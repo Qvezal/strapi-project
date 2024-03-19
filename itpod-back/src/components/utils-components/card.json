@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_utils_components_cards",
+  "info": {
+    "displayName": "card",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "bigger_title": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utils-components.list"
+    }
+  }
+}

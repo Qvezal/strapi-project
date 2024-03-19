@@ -1,0 +1,46 @@
+.wrapper {
+  min-height: 568px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.wrapper p {
+  text-align: center;
+  color: var(--t-dark70);
+}
+
+.wrapper a {
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+
+  .wrapper {
+    min-height: 654px;
+  }
+
+  .wrapper p {
+    max-width: 454px;
+  }
+
+  .wrapper a {
+    width: unset;
+  }
+
+  .button {
+    width: fit-content;
+  }
+}
+
+@media (min-width: 1920px) {
+  .wrapper {
+    min-height: 798px;
+  }
+}

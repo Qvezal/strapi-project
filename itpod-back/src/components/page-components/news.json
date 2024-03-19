@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_components_news",
+  "info": {
+    "displayName": "News",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "base": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utils-components.block-settings"
+    }
+  }
+}
